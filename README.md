@@ -2,9 +2,9 @@
 This library allows to speak number, date or time. It uses the library ESP8266Audio. The output to speaker is handled over I2S with the MAX98357A . The speech output is based on WAV files. Files are on a SD card.
 The constructor
 
-**VoiceOutput()
+**VoiceOutput()**
 
-**bool begin(*uint8&#95;t bitClk, uint8&#95;t RLClk, uint8&#95;t dataOut);*  Starts the instance, to use I2S bus. Parameter are the pin-numbers for I2S bus.
+**bool begin(*uint8&#95;t bitClk, uint8&#95;t RLClk, uint8&#95;t dataOut)***  Starts the instance, to use I2S bus. Parameter are the pin-numbers for I2S bus.
 
 **void setEnglish(float volume)** Set the volume in percent
 
