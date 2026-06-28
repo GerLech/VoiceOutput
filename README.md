@@ -8,7 +8,7 @@ The constructor
 
 **void setEnglish(float volume)** Set the volume in percent
 
-**void setVolume(boolean english)** Select the english way for dare and time
+**void setVolume(boolean english)** Select the english way for date and time
 
 **void setBaseDir(String dir)** set the base directory for the words on the SD card
 
